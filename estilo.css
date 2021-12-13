@@ -1,0 +1,76 @@
+
+@import url('https://fonts.googleapis.com/css2? família=Amatic+SC&display=swap');
+
+
+body{
+    background-color: rgb(8, 3, 20);
+    margin: 5%;
+    padding: 0;
+    font-family: 'verdana';
+    font-size: 70%;
+}
+
+body .texto{
+border: solid, black;
+margin: 5%;
+padding:0;
+align-items: flex-start;
+}
+
+body .texto .conteudo{
+    color: rgb(255, 255, 255);
+    padding-left: 0;
+}
+
+body .texto span{
+    color: rgb(65, 122, 8);
+}
+
+
+header{
+    align-items: center;
+    position: relative;
+    
+}
+
+
+header a{
+    margin: 0;
+    padding: 1.5%;
+    position: relative;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: medium;
+}
+
+
+header a .gitimg{
+    max-width: 40px;
+    filter: invert();
+}
+
+header a .linkedinfov{
+    max-width: 40px;
+    margin: 0;
+}
+
+body .imagem{
+    padding: 40px;
+    position: relative;
+    align-self: center ;
+    
+
+}
+
+body .topicos{
+    color: white;
+}
+
+body .topicos .reactimg{
+    max-width: 30px;
+}
+
+body .topicos .htmlimag{
+    max-width: 50px;
+}
