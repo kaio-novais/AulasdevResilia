@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2? família=Archivo:wght@400;800&display=swap');
+
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #0b0b0b;
+    height: 100vh;
+    overflow: hidden;
+    font-family: 'Archivo', sans-serif;;
+}
+
+.center{
+    position: absolute;
+    top: 25%;
+    left: 60%;
+    width: 400px;
+    background: #ffd000;
+    border-radius: 17px;
+}
+
+.center h1{
+    font-weight: 600;
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid #0b0b0b;
+}
+
+.center form{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+form .txt_field{
+    position: relative;
+    border-bottom: 2px solid #0b0b0b;
+    margin: 30px 0;
+}
+.apresentacao{
+    margin: 0;
+    padding: 0;
+    left: 10%;
+    top: 30%;
+    position: absolute;
+    z-index: 1;
+    color: #ffd000;
+}
+.apresentacao h2{
+    color: white;
+    font-style: italic;
+    
+}
+.txt_field input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+.txt_field label{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    color: #0b0b0b;
+    font-size: 16px;
+    transform: translateY(-50%);
+    pointer-events: none;
+    transition: .5s;
+}
+
+.logoresilia{
+    position: relative;
+    top: 6%;
+    margin: 0;
+    padding: 0;
+    width: 40px;
+    z-index: 3;
+    left: 10%;
+}
+
+.txt_field span::before{
+content: '';
+position: absolute;
+top: 100%;
+left: 0;
+width: 0%;
+height: 2px;
+background: #ffffff;
+transition: .5s;
+}
+
+.txt_field input:focus ~ label,
+.txt_field input:focus ~ label{
+    top: -5px;
+    color: #ffffff;
+}
+
+.txt_field input:focus ~ span::before,
+.txt_field input:focus ~ span::before{
+    width: 100%;
+}
+.pass{
+    margin: -5px 0 20px 5px;
+    color: #0b0b0b;
+    cursor: pointer;
+}
+.pass:hover{
+    text-decoration: underline;
+}
+input[type="submit"]{
+    width: 100%;
+    height: 50px;
+    border: 1px solid;
+    border-radius: 10px;
+    font-size: 18px;
+    color: black;
+    font-weight: 400;
+}
+input[type="submit"]:hover{
+    border-color: blanchedalmond;
+    transition: .5s;
+}
+.signup_link{
+    margin: 30px 0;
+    font-size: 16px;
+    color: #0b0b0b;
+    text-align: center;
+}
+.signup_link a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.signup_link a:hover{
+    text-decoration: underline;
+}
+
+section{
+    top: 87%;
+    position: relative;
+    left: 3%;
+    color: white;
+}
+
